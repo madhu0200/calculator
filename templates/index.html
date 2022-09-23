@@ -1,8 +1,67 @@
 <html>
 {% load static %}
   <head>
-<link rel="stylesheet" type="text/css" href="{% static '/calc.css' %}">
+<!-- <link rel="stylesheet" type="text/css" href="{% static '/calc.css' %}"> -->
   </head>
+  <style>
+    
+body
+{
+    background-color: seagreen;
+}
+.btn
+{
+   border: 2px solid rgb(60, 0, 150);
+  border-spacing: auto;
+  position: relative;
+  color:white;
+  background-color: rgb(52, 43, 43);
+  padding: 10px 20px;
+  font-size: 40px;
+  background: linear-gradient(90deg,#0162c8,#55e7fc);
+transition-duration: 1s;
+border-radius: 10%;
+margin: 100px,100px;
+border: none;
+margin-top: 2%;
+margin-bottom: 2%;
+margin-left: 2%;
+margin-right: 2%;
+float:none; 
+height: 100px;
+width: 100px;
+
+ }
+ button
+ {
+  height: 100px;
+width: 100px;
+ }
+ .inp
+
+ {
+   height: 100px;
+   width: 100%;
+   border: 2px solid rgb(0, 255, 0);
+   margin-bottom: auto;
+   border-spacing: auto;
+   margin-left: auto;
+   margin-right: auto;
+ }
+form
+{
+  background-color: rgba(255,255,255,0.5);
+}
+input
+{
+    float: center;
+    font-size: 40px;
+    background-color: rgb(52, 47, 47);
+    color: white;
+    box-sizing: border-box;
+    text-align: right;
+}
+  </style>
 
   <body>
     <fieldset style="border-spacing: 20px;">
@@ -14,7 +73,7 @@
                         <div class="buttonGroup">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <button class="btn"   onclick="document.calculate.text1.value+='1';return false">1</button>
+        <button class="btn" style="height: 200px;width: 200px;"  onclick="document.calculate.text1.value+='1';return false">1</button>
         <button class="btn"   onclick="document.calculate.text1.value+='2';return false">2</button>
         <button class="btn"   onclick="document.calculate.text1.value+='3';return false">3</button>
          <button class="btn"  onclick="document.calculate.text1.value+='4';return false">4 </button>

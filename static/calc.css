@@ -5,7 +5,7 @@ body
 }
 .btn
 {
-  border: 2px solid rgb(60, 0, 150);
+   border: 2px solid rgb(60, 0, 150);
   border-spacing: auto;
   position: relative;
   color:white;
@@ -21,9 +21,15 @@ margin-top: 2%;
 margin-bottom: 2%;
 margin-left: 2%;
 margin-right: 2%;
-float:none;
+float:none; 
+height: 100px;
+width: 100px;
 
-
+ }
+ button
+ {
+  height: 100px;
+width: 100px;
  }
  .inp
 
